@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Telex&display=swap');
+
+
+body{
+    margin: 0;
+}
+.main-section{
+    background-image:url('background.png');
+    background-repeat:no-repeat;
+    background-position: center center;
+    height: 100vh;
+    display:flex;
+    justify-content:space-between;
+    flex-direction:column;
+
+}
+
+.heading {
+display: inline-block;
+
+text-align: center;
+}
+h1{
+     
+font-family:'Telex', sans-serif;;
+font-size: 90px;
+letter-spacing: 6px;
+color: #F7FFF7;
+
+}
+.eilish{
+    margin-left: 30px;
+}
+
+.menu {
+    
+    display:flex;
+    
+    justify-content:flex-start;
+    margin-left: 30px;
+    margin-top: 15px;
+    width:23vw;
+
+    
+    font-family: Telex;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 43px;
+    letter-spacing: 0.2em;
+    text-decoration-line: underline;
+    color:#fff;
+    
+    
+    
+    
+}
+.anchor{
+    color:#fff;
+}
+.anchor:visited{
+    color:#06ac34;
+}
