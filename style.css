@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: 'SF Pro Text Regular';
+    src: url('fonts/SFProDisplay-Regular.eot');
+    src: url('fonts/SFProDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/SFProDisplay-Regular.woff') format('woff'),
+    url('fonts/SFProDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'SF Pro Text Light';
+    src: url('fonts/SFProDisplay-Light.eot');
+    src: url('fonts/SFProDisplay-Light.eot?#iefix') format('embedded-opentype'),
+    url('fonts/SFProDisplay-Light.woff') format('woff'),
+    url('fonts/SFProDisplay-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 20px;
+}
+
+.grid{
+    display: grid;
+    grid-template: repeat(3, 512px) / repeat(3, 320px);
+    grid-gap: 20px;
+}
+
+.grid_card{    
+    position: relative;
+    padding-left: 20px;
+    background: url('images/bg_layer.png'),
+    linear-gradient(174.8deg, #2C354F 3.21%, #596D99 136.3%);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.grid .card_1 .date{
+    width: 91px;
+    height: 25px;
+    background: #FFDD2D;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'SF Pro Text Light';
+    font-size: 14px;
+    line-height: 122%;
+    color: #000;
+    margin-top: 54px;
+}
+
+.grid .card_1 .title{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.grid .card_1 .main_info{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 300;
+    font-family: 'SF Pro Text Light';
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.grid .grid_card .info{
+    font-size: 16px;
+    line-height: 19.5px;
+    font-weight: 300;
+    font-family: 'SF Pro Text Light';
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.grid .card_1 .author{
+    width: 250px;
+    height: 84px;
+    background: #FFFFFF;
+    border-radius: 11px;
+    margin: 59px 35px 0 15px;
+    display: flex;
+}
+
+.grid .card_1 .author .author_photo img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin: 9px 10px 9px 15px;
+}
+
+.grid .card_1 .author .author_text{
+    width: 145px;
+    font-family: 'SF Pro Text Light';
+    font-size: 10px;
+    margin: 21px 15px 21px 0;
+}
+
+.grid .card_1 .author .author_text .author_name{
+    margin: 0;
+    font-family: 'SF Pro Text Regular';
+    font-size: 12px;
+}
+
+.grid .card_1 .author .author_text .author_info{
+    margin-top: 5px;
+}
+
+.grid .grid_card .cubes .cube{
+    position: absolute;
+}
+
+.grid .card_1 .cubes .cube_lt{
+    height: 89.32px;
+    top: 300px;
+    left: 3px;
+}
+
+.grid .card_1 .cubes .cube_rt{
+    height: 73.39px;
+    top: 314px;
+    right: 29.89px;
+}
+
+.grid .card_1 .cubes .cube_lb{
+    height: 151.08px;
+    top: 361px;
+    left: 0;
+}
+
+.grid .card_1 .cubes .cube_rb{
+    height: 113.86px;
+    top: 392.58px;
+    right: 0;
+}
+
+.card_point{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 280px;
+    height: 87px;
+}
+
+.grid .card_2 .download{
+    display: inline-block;
+    color: #FFDE01;
+    margin-top: 20px;
+}
+
+.grid .grid_card .list{
+    background: #FFFFFF;
+    border-radius: 12px;
+    width: 235px;
+    height: 196px;
+    margin: 15px 43px 0 23px;
+    font-family: 'SF Pro Text Light';
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.grid .card_2 .list p{
+    padding-top: 15px;
+    padding-left: 25px;
+    width: 142px;
+    height: 30px;
+}
+
+.grid .card_2 .list ul{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0;     
+}
+
+.grid .card_2 .list ul li{
+    padding: 9.5px 0 9.5px 44px;
+    border-top: 1px solid #E0E0E0;
+    list-style: none;
+    position: relative;
+}
+
+.grid .card_2 .list ul li:nth-child(n):before{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 92px;
+    width: 92px;
+}
+
+.grid .card_2 .list ul li:first-child::before{
+    top: -20px;
+    left: -38px;
+    background-image: url(images/chef.png);
+}
+
+.grid .card_2 .list ul li:nth-child(2):before{
+    top: -16px;
+    left: -32px;
+    background-image: url(images/wink.png);
+}
+
+.grid .card_2 .list ul li:last-child::before{
+    top: -21px;
+    left: -30px;
+    background-image: url(images/pizza.png);
+}
+
+.grid .card_3 .list{
+    margin-top: 35px;
+    width: 235px;
+    height: 120px;
+}
+
+.grid .card_3 .list p{
+    padding: 17px 13px 13px 44px;
+    width: 168px;
+    height: 90px;
+}
+
+.grid .card_3 .list .clipboard{
+    height: 107.17px;
+    position: absolute;
+    top: 233px;
+    left: 0px;
+}
+
+.grid .card_3 .list .pen{
+    height: 57.17px;
+    position: absolute;
+    top: 267px;
+    left: 27px;
+}
+
+.grid .card_3 .cubes .cube_r{
+    height: 163.48px;
+    top: 306px;
+    right: 30px;
+}
+
+.grid .card_3 .cubes .cube_l{
+    
+    height: 126.87px;
+    top: 380.13px;
+    left: 31.81px;
+}   
+
+.grid .card_4 .card_point{
+    height: 58px;
+}
+
+.grid .card_4 .list{
+    width: 235px;
+    height: 105px;
+    margin-top: 51px ;
+}
+
+.grid .card_4 .list p{
+    padding: 15px 18px 11px 47px;
+}
+
+.grid .card_4 .list .magnifier{
+    position: absolute;
+    height: 115.41px;
+    left: 0;
+    top: 232px;
+}
+
+.grid .card_4 .cubes .cube_l{
+    height: 132.28px;
+    left: 12.19px;
+    top: 308px;
+}
+
+.grid .card_4 .cubes .cube_r{
+    height: 105.32px;
+    left: 193.72px;
+    top: 379px;
+}
+
+.grid .card_5 .card_point{
+    height: 58px;
+}
+
+.grid .card_5 .list{
+    width: 235px;
+    height: 106px;
+    margin-top: 71px;
+}
+
+.grid .card_5 .list p{
+    padding: 15px 18px 11px 47px;
+}
+
+.grid .card_5 .list .light{
+    position: absolute;
+    height: 115.41px;
+    left: 0;
+    top: 222px;
+}
+
+.grid .card_5 .list .lightbulb{
+    position: absolute;
+    height: 115.41px;
+    left: 0;
+    top: 232px;
+}
+
+.grid .card_5 .cubes .cube_t{
+    height: 63.99px;
+    left: 203.48px;
+    top: 201.32px;
+}
+
+.grid .card_5 .cubes .cube_b{
+    height: 119.86px;
+    left: 132.75px;
+    top: 315px;
+}
+
+.grid .card_6 .card_point{
+    height: 58px;
+}
+
+.grid .card_6 .chat textarea{
+    background: #FFFFFF;
+    opacity: 0.55;
+    border-radius: 12px;
+    width: 255.52px;
+    height: 41px;
+    font-family: 'SF Pro Text Light';
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.41px;
+    padding: 10px 12.24px;
+    resize: none;
+}
+
+.grid .grid_card .button{
+    border-radius: 26px;
+    width: 280px;
+    height: 45px;
+    border: none;
+    font-family: 'SF Pro Text Light';
+}
+
+.grid .card_6 .send{
+    background: #FFDE01;
+    box-shadow: 0px 7px 35px rgba(0, 0, 0, 0.25);
+    margin-top: 266px;
+}
+
+.grid .card_7 .youtube{
+    background: #FFFFFF;
+    box-shadow: 0px 7px 35px rgba(0, 0, 0, 0.25);
+    margin-top: 86px;
+    color: #333333;
+}
+
+.grid .card_7 .logo img{
+    width: 210.34px;
+    height: 69px;
+    margin: 65px 55px 0 35px;
+}
+
+.grid .card_7 .cubes .cube_tr{
+    height: 124.86px;
+    right: 0px;
+    top: 185.9px;
+}
+
+.grid .card_7 .cubes .cube_br{
+    height: 105.32px;
+    left: 193.72px;
+    top: 327.46px;
+}
+
+.grid .card_7 .cubes .cube_bl{
+    height: 184.86px;
+    left: 0;
+    top: 296px;
+}
