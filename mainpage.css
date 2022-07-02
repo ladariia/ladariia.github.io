@@ -7,7 +7,7 @@ body {
   margin: 0;
   background-color: #333333;
   font-family: "TomFont";
-  font-size: 24px;
+  font-size: 40px;
   color: #fff;
   padding-left: 40px;
   padding-top: 40px;
@@ -19,6 +19,6 @@ img {
 }
 
 .gift {
-  margin-top: calc(100vh - 440px);
+  margin-top: calc(100vh - 540px);
   color: #ffc32b;
 }
