@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "TomFont";
+  src: url("/tommys-first-alphabet/tommys.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  background-color: #333333;
+  font-family: "TomFont";
+  font-size: 24px;
+  color: #fff;
+  padding-left: 40px;
+  padding-top: 40px;
+}
+
+img {
+  display: block;
+  width: 80vw;
+}
+
+.gift {
+  margin-top: calc(100vh - 440px);
+  color: #ffc32b;
+}
