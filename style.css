@@ -4,9 +4,10 @@ body {
   background: #000;
   padding-top: 40px;
   padding-left: 10px;
-  font-size: 24px;
+  font-size: 28px;
   color: #1ae027;
   font-family: "Source Code Pro", monospace;
+  width: 100vw;
 }
 
 .box {
@@ -16,7 +17,7 @@ body {
 
 input {
   background: #000;
-  font-size: 24px;
+  font-size: 28px;
   color: #1ae027;
   font-family: "Source Code Pro", monospace;
   border: none;
@@ -26,7 +27,7 @@ input {
 
 input:active {
   background: #000;
-  font-size: 24px;
+  font-size: 28px;
   color: #1ae027;
   font-family: "Source Code Pro", monospace;
   outline: 0;
@@ -39,7 +40,7 @@ input:active {
 }
 
 input::placeholder {
-  font-size: 24px;
+  font-size: 28px;
   color: #1ae027;
   font-family: "Source Code Pro", monospace;
 }
