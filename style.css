@@ -22,7 +22,6 @@ input {
   border: none;
   outline: 0;
   outline-offset: 0;
-  width: 200px;
 }
 
 input:active {
